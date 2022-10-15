@@ -1,0 +1,72 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(bg.png);
+    background-attachment: fixed;
+    
+}
+
+
+p{
+    color: rgba(125, 135, 255, 0.61);
+    font-size: 70px;
+}
+
+.navbar {
+    display: flex;
+    width: 20%;
+    height: auto;
+    margin: 8vh auto;
+    justify-content: center;
+}
+
+.czas {
+    color:white
+}
+
+.doggo{
+    width: 150px;
+    height: auto;
+    margin: auto;
+    animation-name: nyoom;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes nyoom {
+    0% {width: 150px;}
+    50% {width: 250px;}
+    100% {width: 150px;}
+}
+
+main{
+    position: static;
+}
+
+.linki {  
+    display: flex;
+    width: 60%;
+    height: 50vh;
+    margin: auto;
+    justify-content: center;
+    border: 1px solid white;
+    background-color: rgba(0, 0, 0, 0.744);
+}
+
+li{
+    margin: auto 15px;
+}
+
+a{
+    text-decoration: none;
+    font-size: 25px;
+    color: rgba(255, 255, 255, 0.466);
+}
+
+a:hover{
+    color: rgb(111, 229, 255);
+}
